@@ -1,6 +1,11 @@
-<h1>Products</h1>
+<h1><%= @product.name %><br /></h1>
 
-<p><%= @product.formatted_price %></p>
+<p>
+  Description:<br />
+  <%= @product.description %><br />
+  Price:<br />
+  <%= @product.formatted_price %>
+</p>
 
 <h3>Reviews</h3>
 
